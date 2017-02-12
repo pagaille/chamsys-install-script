@@ -414,6 +414,10 @@ cat > /root/.config/openbox/menu.xml << EOF
 </openbox_menu>
 EOF
 
+cat > /root/.config/openbox/autostart << EOF
+/opt/magicq/runmagicq.sh &
+EOF
+
 cat > /root/.config/openbox/rc.xml << EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc">
